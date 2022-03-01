@@ -92,7 +92,7 @@
 </main>
 
 <footer>
-    Code@João Rafael Pereira Cruz
+    <p>Code@João Rafael Pereira Cruz</p>
 </footer>
 </body>
 </html>
