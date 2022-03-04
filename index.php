@@ -57,8 +57,8 @@
 </form>
 <div class="result_box">
 <?php
-    $number1 = $_POST["number_1"];
-    $number2 = $_POST["number_2"];
+    $number1 = $_POST['number_1'] = (isset($_POST['number_1']) ) ? $_POST['number_1'] : null;
+    $number2 = $_POST['number_2'] = (isset($_POST['number_2']) ) ? $_POST['number_2'] : null;
     $operation = $_POST['math'] = (isset($_POST['math']) ) ? $_POST['math'] : null;
 
     switch ($operation) {
